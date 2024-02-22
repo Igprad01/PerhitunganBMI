@@ -2,6 +2,7 @@ function inputBerat() {
     const berat = parseFloat(document.getElementById('beratBadan').value);
     const tinggi = parseFloat(document.getElementById('tinggiBadan').value) / 100; 
     const laki = document.getElementById('lakiLaki');
+    const perempuan = document.getElementById('perempuan');
     let totalBerat = berat / (tinggi * tinggi);
 
     if (totalBerat < 18.5) {
