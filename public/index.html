@@ -10,17 +10,15 @@
   <div class="w-full max-w-96">
     <form action="#" class="shadow-xl bg-slate-100 pt-20 pb-20 pl-16 pr-20 rounded-lg">
         <div class="mb-5">
-           <label for="#" class="block">Jenis Kelamin</label>
-           <label for="#"><input type="radio" name="laki laki" id="lakiLaki">Laki Laki</label>
-           <label for="#"><input type="radio" name="laki laki" id="perempuan">Perempuan</label>
-        </div>
-        <div class="mb-5">
             <label for="#">berat Badan</label>
             <input type="number" name="berat Badan" class="px-4 py-2 w-full outline-none rounded shadow-sm" id="beratBadan">
         </div>
         <div class="mb-5">
             <label for="#">tinggi Badan</label>
             <input type="number" name="tinggi Badan" class="px-4 py-2 w-full outline-none rounded shadow-sm" id="tinggiBadan">
+        </div>
+        <div>
+          <textarea name="output" id="output" class="mb-5" cols="30" rows="5"></textarea>
         </div>
         <button type="submit" id="submit" class="px-6 py-2 bg-slate-900 text-white rounded-md" onclick="inputBerat()">submit</button>
     </form>
